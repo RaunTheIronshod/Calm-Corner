@@ -15,3 +15,23 @@ h2 {
     font-size: 48px;
     font-weight: bold;
 }
+
+.yellow {
+    background-color: #ffd43a;
+    color: #22272e;
+}
+
+.green {
+    background-color: #009688;
+    color: #fff;
+}
+
+section {
+    scroll-margin: 50px;
+}
+
+.partner-img {
+    object-fit: contain;
+    width: 120px;
+    padding: 0 2%;
+}
