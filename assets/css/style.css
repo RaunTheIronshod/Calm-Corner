@@ -26,8 +26,39 @@ h2 {
     color: #fff;
 }
 
+.light-grey {
+    background-color: #f6ff75;
+    color: #22272e;
+}
+
+.tan {
+    background-color: #f3c5a2;
+    color: #22272e;
+}
+
 section {
     scroll-margin: 50px;
+}
+
+.card {
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-service {
+    background-color: #22272e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-service:hover {
+    background-color: #ffff4c;
+    color: #22272e;
 }
 
 .partner-img {
@@ -35,3 +66,38 @@ section {
     width: 120px;
     padding: 0 2%;
 }
+
+.title {
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+/* Colour pallette options !!!!DELETE UNUSED!!!! */
+
+
+/* Colour scheme 1 - Calm Blues */
+
+/* .color-scheme {
+    --tiffany-blue: #a1d2ceff;
+    --tiffany-blue-2: #78cad2ff;
+    --verdigris: #62a8acff;
+    --blue-munsell: #5497a7ff;
+    --dark-cyan: #50858bff;
+}
+
+/* Colour scheme 2 - Rich Blue/Black */
+
+/* .color-scheme {
+    --rich-black: #04080fff;
+    --glaucous: #507dbcff;
+    --powder-blue: #a1c6eaff;
+    --columbia-blue: #bbd1eaff;
+    --platinum: #dae3e5ff;
+}   
+
