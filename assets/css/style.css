@@ -1,8 +1,17 @@
 body {
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 h1,
 h2 {
-    font-family: "Lora", serif;
+    font-family: "Noto Sans", serif;
+}
+
+.navbar-brand {
+    font-family: "Noto Sans", serif;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: bold;
 }
