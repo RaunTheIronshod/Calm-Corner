@@ -27,7 +27,7 @@ h2 {
 }
 
 .light-grey {
-    background-color: #f6ff75;
+    background-color: #bdbdbd;
     color: #22272e;
 }
 
@@ -57,14 +57,42 @@ section {
 }
 
 .card-service:hover {
-    background-color: #ffff4c;
+    background-color: #f1f105;
     color: #22272e;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.gallery-card {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.gallery-img {
+    object-fit: cover;
+    height: 400px;
+    filter: brightness(85%);
 }
 
 .partner-img {
     object-fit: contain;
     width: 120px;
     padding: 0 2%;
+}
+
+.gallery-description {
+    position: absolute;
+    bottom: 0;
+    left: 0x;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 3%px;
+    text-align: center;
 }
 
 .title {
