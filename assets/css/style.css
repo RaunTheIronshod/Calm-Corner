@@ -11,6 +11,24 @@ h2 {
     font-family: "Noto Sans", serif;
 }
 
+.navbar {
+    padding-top: 0.5.rem;
+    padding-bottom: 0.5.rem;
+    min-height: 70px; 
+    border-bottom: 4px solid #000000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); 
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.25rem; 
+    font-weight: 500;  
+    font-weight: bold;
+}
+
+header {
+    margin-top: 100px; 
+}
+
 .header-title {
     font-size: 48px;
     font-weight: bold;
@@ -99,11 +117,6 @@ section {
     font-weight: bold;
     margin-bottom: 3%;
 }
-
-
-
-
-
 
 
 /* Colour pallette options !!!!DELETE UNUSED!!!! */
