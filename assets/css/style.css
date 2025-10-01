@@ -11,6 +11,10 @@ h2 {
     font-family: "Noto Sans", serif;
 }
 
+.p {
+    font-family: "Roboto", sans-serif;
+}
+
 .navbar {
     padding-top: 0.5.rem;
     padding-bottom: 0.5.rem;
@@ -39,8 +43,13 @@ header {
     color: #22272e;
 }
 
-.green {
-    background-color: #009688;
+.blue {
+    background-color: #43a3cf;
+    color: #fff;
+}
+
+.dark-blue {
+    background-color: #225cad;
     color: #fff;
 }
 
@@ -59,7 +68,7 @@ section {
 }
 
 .card {
-    border: none;
+    border: 1px solid #ddd;
 }
 
 .card:hover {
@@ -116,6 +125,10 @@ section {
 .title {
     font-weight: bold;
     margin-bottom: 3%;
+}
+
+.text-large {
+    font-size: 1.25rem;
 }
 
 
