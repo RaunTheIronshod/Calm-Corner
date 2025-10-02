@@ -12,7 +12,7 @@ Table of Contents
 ## Table of Contents
 - [Project Outline](#project-outline)
 - [User Stories](#user-stories)
-- [UX Design](#ux-ui)
+- [UX Design](#ux-design)
 - [Features](#features)
 - [Deployment](#deployment)
 - [AI Implementation](#ai-implementation)
@@ -53,6 +53,7 @@ Persistent personal testing was carried out throughout the project to ensure usa
 References / external links
 
 Credits
+
 
 
 
