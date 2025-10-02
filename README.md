@@ -9,10 +9,18 @@ Calm Corner is a project developed for the Code Institutes Full Stack Software D
 (Link to Live website)
 
 Table of Contents
+## Table of Contents
+- [Project Outline](#project-outline)
+- [User Stories](#user-stories)
+- [UX/UI](#ux-ui)
+- [Features](#features)
+  - [Feature 1](#feature-1)
+  - [Feature 2](#feature-2)
+- [License](#license)
 
 Project Outline
 User Stories
-UX demonstratable
+UX/UI
 Features
 Deployment & Dependencies
 AI Implementation
@@ -27,7 +35,7 @@ Testing and Validation
 References / external links
 Credits
 
-Project Outline
+## Project Outline
 ---------------
 The project is a website product aimed at people who seek mental health support and guidance, it will provide resources, guides and links to other helpful agencies. It is designed with an industry standard mobile first design methodology to ensure accessibility and ease-of-use to the user. The product is a demonstratable product for HTML, CSS and Bootstraps front end frameworks ability to quickly create visually pleasing website products for proffesional use. The product is tailored toward providing positive support for those with suffering mental health
 
@@ -59,4 +67,5 @@ Persistent personal testing was carried out throughout the project to ensure usa
 
 References / external links
 Credits
+
 
