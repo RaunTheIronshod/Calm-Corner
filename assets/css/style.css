@@ -2,6 +2,19 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.2s, background 0.2s;
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #ffd43a;
+    background-color: rgba(255, 255, 255, 0.05);
+    text-decoration: none;
+}
+
 h1,
 h2 {
     font-family: "Noto Sans", serif;
@@ -9,58 +22,88 @@ h2 {
 
 .navbar-brand {
     font-family: "Noto Sans", serif;
+    font-size: xx-large;
 }
 
 .p {
     font-family: "Roboto", sans-serif;
 }
 
-.navbar {
-    padding-top: 0.5.rem;
-    padding-bottom: 0.5.rem;
-    min-height: 70px; 
-    border-bottom: 4px solid #000000;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05); 
+/* Update color variables to use primary, secondary, etc. */
+:root,
+.color-scheme {
+    --primary: rgba(13, 110, 253);
+    --secondary: rgb(245, 245, 245);
+    --accent: rgb(115, 160, 211);
+    --background: rgb(255, 255, 255);
+    --dark: #04080fff;
+    --light: #fff;
 }
 
+/* Section backgrounds with new names */
+.primary-section {
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.secondary-section {
+    background-color: var(--secondary);
+    color: var(--dark);
+}
+
+.accent-section {
+    background-color: var(--accent);
+    color: var(--dark);
+}
+
+.background-section {
+    background-color: var(--background);
+    color: var(--dark);
+}
+
+.dark-section {
+    background-color: var(--dark);
+    color: var(--background);
+}
+
+.navbar {
+    background: var(--background) !important;
+    border-bottom: 4px ridge var(--dark);
+    box-shadow: 0 2px 8px rgba(80, 125, 188, 0.08);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar .navbar-brand,
 .navbar-nav .nav-link {
-    font-size: 1.25rem; 
-    font-weight: 500;  
-    font-weight: bold;
+    color: var(--dark) !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: color 0.2s, background 0.2s;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: var(--primary) !important;
+    background: rgba(80, 125, 188, 0.08);
+    border-radius: 0.4rem;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand img {
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
 }
 
 header {
-    margin-top: 100px; 
+    margin-top: 100px;
 }
 
 .header-title {
     font-size: 48px;
     font-weight: bold;
-}
-
-.yellow {
-    background-color: #ffd43a;
-    color: #22272e;
-}
-
-.blue {
-    background-color: #43a3cf;
-    color: #fff;
-}
-
-.dark-blue {
-    background-color: #225cad;
-    color: #fff;
-}
-
-.light-grey {
-    background-color: #bdbdbd;
-    color: #22272e;
-}
-
-.tan {
-    background-color: #f3c5a2;
-    color: #22272e;
 }
 
 section {
@@ -131,27 +174,55 @@ section {
     font-size: 1.25rem;
 }
 
-
-/* Colour pallette options !!!!DELETE UNUSED!!!! */
-
-
-/* Colour scheme 1 - Calm Blues */
-
-/* .color-scheme {
-    --tiffany-blue: #a1d2ceff;
-    --tiffany-blue-2: #78cad2ff;
-    --verdigris: #62a8acff;
-    --blue-munsell: #5497a7ff;
-    --dark-cyan: #50858bff;
+.card.accent-section {
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Colour scheme 2 - Rich Blue/Black */
+/* Navbar brand styling */
+.navbar-brand.d-flex.align-items-center {
+    font-size: 2rem;
+    font-weight: 700;
+}
 
-/* .color-scheme {
-    --rich-black: #04080fff;
-    --glaucous: #507dbcff;
-    --powder-blue: #a1c6eaff;
-    --columbia-blue: #bbd1eaff;
-    --platinum: #dae3e5ff;
-}   
+/* Navbar border and shadow */
+.navbar {
+    border-bottom: 6px solid #0d6efd !important;
+    box-shadow: 0 4px 16px rgba(13, 110, 253, 0.15);
+}
 
+/* Modal custom styles */
+#findOutMoreModal .modal-content {
+    border-radius: 1.2rem;
+    box-shadow: 0 8px 32px rgba(80, 125, 188, 0.18);
+}
+
+#findOutMoreModal .modal-header {
+    background: var(--powder-blue, #a1c6ea);
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+}
+
+#findOutMoreModal .modal-title {
+    color: var(--rich-black, #04080f);
+    font-weight: bold;
+}
+
+#findOutMoreModal .modal-body {
+    max-height: 400px;
+    overflow-y: auto;
+    background: var(--platinum, #dae3e5);
+}
+
+#findOutMoreModal blockquote {
+    font-size: 1.1rem;
+    color: #222;
+}
+
+#findOutMoreModal .alert-info {
+    background: var(--columbia-blue, #bbd1ea);
+    color: #222;
+}
