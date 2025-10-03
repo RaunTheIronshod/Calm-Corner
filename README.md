@@ -4,11 +4,12 @@ Introduction
 
 Calm Corner is a project developed for the Code Institutes Full Stack Software Development course. The website is tailored for mental health awareness and aims to provide resources and support for those suffering with mental health issues. The project scope is from the design environment such as wireframes, colour schemes, font schemes and following through to full deployment of the product. The project is a demonstration of programming skills and design methodology with the intent to portfolio my skillset
 
-(Image of website / amiresponsive)
+![Calm Corner](https://github.com/user-attachments/assets/81a80578-1dda-4c88-93e9-e0d2ec2ba975)
+![Calm Corner 2](https://github.com/user-attachments/assets/36c19bee-d51c-4509-9909-8711b92bd732)
 
-(Link to Live website)
 
-Table of Contents
+(Imagine a link to a website here)
+
 ## Table of Contents
 - [Project Outline](#project-outline)
 - [User Stories](#user-stories)
@@ -62,6 +63,7 @@ Cartoon style therapy images from user pikistar at freepik.com
 Calm corner logo generated at logo.com
 Hero images where produced by deepai.org
 Writing for the website as well as some aid with code syntax from chatgpt
+
 
 
 
