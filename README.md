@@ -36,11 +36,11 @@ User stories were produced for the websites design process to ensure good functi
 Knowledge of the user experience is crucial when developing software to avoid re-writes and ensure the product meets the users needs and expectations. It is important to offer the user clear detail and clean website navigation. The use of design methodologies within the research phase of production helped to tailor the UX to be user-friendly and streamlined. Wireframes helped with general page layout and spacing, colour schemes where used to help visual accesibility and appropriate fonts where selected for the same reasoning
 
 ![Calm Corner Wireframes](https://github.com/user-attachments/assets/ad9360a7-48b7-49a4-b694-7e6e18ed0829)
-![Calm Corner Wireframes 2](https://github.com/user-attachments/assets/d197dc1b-5500-43ca-a867-64fc332967b5)
+![Calm Corner Wireframes 2](https://github.com/user-attachments/assets/2918d2ec-bc59-42dc-a8ab-b63e0cd91893)
 
 ## Features
 --------
-The product holds a number of technical coding features such as Favicons, Nav Bars, Cards, Buttons. It provides links to external sources through logo images of relevant resources.
+The product holds a number of technical coding features such as Favicons, Nav Bars, Cards, Buttons. It provides links to external sources through logo images of relevant resources. The design is responsive to different devices and tailoredd for ease-of-use
 
 ## Deployment
 ----------
@@ -66,6 +66,7 @@ Cartoon style therapy images from user pikistar at freepik.com
 Calm corner logo generated at logo.com
 Hero images where produced by deepai.org
 Writing for the website as well as some aid with code syntax from chatgpt
+
 
 
 
