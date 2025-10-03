@@ -48,7 +48,7 @@ The use of AI in this product is mainly to fill the role of content writer for m
 
 ## Testing and Validation
 ----------------------
-Persistent personal testing was carried out throughout the project to ensure usability and feature consistency, the repeated mobile first test to ensure all basic device screens dimensions are accommodated for. The website was passed through a series of validators such as HTML, CSS, Js etc….
+Persistent personal testing was carried out throughout the project to ensure usability and feature consistency, repeated mobile first test to ensure all basic device screens dimensions are accommodated for. The website was passed through a series of validators such as HTML, CSS
 
 References
 ----------
@@ -62,6 +62,7 @@ Cartoon style therapy images from user pikistar at freepik.com
 Calm corner logo generated at logo.com
 Hero images where produced by deepai.org
 Writing for the website as well as some aid with code syntax from chatgpt
+
 
 
 
