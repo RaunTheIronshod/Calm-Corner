@@ -35,13 +35,16 @@ User stories were produced for the websites design process to ensure good functi
 ---------
 Knowledge of the user experience is crucial when developing software to avoid re-writes and ensure the product meets the users needs and expectations. It is important to offer the user clear detail and clean website navigation. The use of design methodologies within the research phase of production helped to tailor the UX to be user-friendly and streamlined. Wireframes helped with general page layout and spacing, colour schemes where used to help visual accesibility and appropriate fonts where selected for the same reasoning
 
+![Calm Corner Wireframes](https://github.com/user-attachments/assets/ad9360a7-48b7-49a4-b694-7e6e18ed0829)
+![Calm Corner Wireframes 2](https://github.com/user-attachments/assets/d197dc1b-5500-43ca-a867-64fc332967b5)
+
 ## Features
 --------
 The product holds a number of technical coding features such as Favicons, Nav Bars, Cards, Buttons. It provides links to external sources through logo images of relevant resources.
 
 ## Deployment
 ----------
-The deployment of the website and the projects source control was achieved through git. Regular updates
+The deployment of the website and the projects source control was achieved through git. Regular updates where pushed and tested and deployment was succesful until the final push before the deadline. With my source control being unstable I decided to leave it as is until after I have presented it to avoid any loss of work, instead presenting irect through VS Code
 
 ## AI implementation
 -----------------
@@ -49,7 +52,7 @@ The use of AI in this product is mainly to fill the role of content writer for m
 
 ## Testing and Validation
 ----------------------
-Persistent personal testing was carried out throughout the project to ensure usability and feature consistency, repeated mobile first test to ensure all basic device screens dimensions are accommodated for. The website was passed through a series of validators such as HTML, CSS
+Persistent personal testing was carried out throughout the project to ensure usability and feature consistency, repeated mobile first test to ensure all basic device screens dimensions are accommodated for. The website was passed through a series of validators such as HTML and CSS however the final state of the site has not been run through checkers due to the deployment issue presented above. It is worth noting that previous versions passed without errors
 
 References
 ----------
@@ -63,6 +66,7 @@ Cartoon style therapy images from user pikistar at freepik.com
 Calm corner logo generated at logo.com
 Hero images where produced by deepai.org
 Writing for the website as well as some aid with code syntax from chatgpt
+
 
 
 
