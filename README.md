@@ -4,64 +4,74 @@ Introduction
 
 Calm Corner is a project developed for the Code Institutes Full Stack Software Development course. The website is tailored for mental health awareness and aims to provide resources and support for those suffering with mental health issues. The project scope is from the design environment such as wireframes, colour schemes, font schemes and following through to full deployment of the product. The project is a demonstration of programming skills and design methodology with the intent to portfolio my skillset
 
-(Image of website / amiresponsive)
+![Calm Corner](https://github.com/user-attachments/assets/81a80578-1dda-4c88-93e9-e0d2ec2ba975)
+![Calm Corner 2](https://github.com/user-attachments/assets/36c19bee-d51c-4509-9909-8711b92bd732)
 
-(Link to Live website)
 
-Table of Contents
+(Imagine a link to a website here)
 
-Project Outline
-User Stories
-UX demonstratable
-Features
-Deployment & Dependencies
-AI Implementation
-Testing and Validation
-References / External Links
-Credits
+## Table of Contents
+- [Project Outline](#project-outline)
+- [User Stories](#user-stories)
+- [UX Design](#ux-design)
+- [Features](#features)
+- [Deployment](#deployment)
+- [AI Implementation](#ai-implementation)
+- [Testing and Validation](#testing-and-validation)
+- [References](#references)
+- [Credits](#credits)
 
-Project Outline
-
-User Stories
-The use of user stories as a design tool is crucial to aid developers in considering products from the other side of table as the user, helping to predict use case issues before they arise. This does not stop them being a boring element of design
-
-I tailored my user stories to be more general state use rather than critical state use as the website is for general mental wellbeing rather than crisis.
-
-UX design
-
-Features
-
-Deployment
-
-The product was produced alongside Github for version control
-
-AI implementation
-Testing and Validation
-References / external links
-Credits
-
-Project Outline
+## Project Outline
+---------------
 The project is a website product aimed at people who seek mental health support and guidance, it will provide resources, guides and links to other helpful agencies. It is designed with an industry standard mobile first design methodology to ensure accessibility and ease-of-use to the user. The product is a demonstratable product for HTML, CSS and Bootstraps front end frameworks ability to quickly create visually pleasing website products for proffesional use. The product is tailored toward providing positive support for those with suffering mental health
 
 The project will provide examples of web development skills in the form of a fully designed and deployed website offering tailored needs to users. It will example software development techniques and standards as well as source control use and documentation along with a practical design showcase.
 
-User Stories
-User stories were produced for the websites design process to ensure good functionality and product use from the user, this method helps developers to see the product from the other side of the table, offering useful insights into the users experience of the product
+## User Stories
+------------
+User stories were produced for the websites design process to ensure good functionality and product use from the user, this method helps developers to see the product from the other side of the table, offering useful insights into the users experience of the product. I tailored my user stories to be more general state use rather than critical state use as the website is for general mental wellbeing rather than crisis.
 
-UX design
+## UX Design
+---------
 Knowledge of the user experience is crucial when developing software to avoid re-writes and ensure the product meets the users needs and expectations. It is important to offer the user clear detail and clean website navigation. The use of design methodologies within the research phase of production helped to tailor the UX to be user-friendly and streamlined. Wireframes helped with general page layout and spacing, colour schemes where used to help visual accesibility and appropriate fonts where selected for the same reasoning
 
-Features
-The product holds a number of technical coding features such as Favicons, Nav Bars, Cards, Buttons. It provides links to external sources through logo images of relevant resources.
+![Calm Corner Wireframes](https://github.com/user-attachments/assets/ad9360a7-48b7-49a4-b694-7e6e18ed0829)
+![Calm Corner Wireframes 2](https://github.com/user-attachments/assets/2918d2ec-bc59-42dc-a8ab-b63e0cd91893)
 
-Deployment
-The deployment of the website and the projects source control was achieved through git. Regular updates
+## Features
+--------
+The product holds a number of technical coding features such as Favicons, Nav Bars, Cards, Buttons. It provides links to external sources through logo images of relevant resources. The design is responsive to different devices and tailoredd for ease-of-use
 
-AI implementation
+## Deployment
+----------
+The deployment of the website and the projects source control was achieved through git. Regular updates where pushed and tested and deployment was succesful until the final push before the deadline. With my source control being unstable I decided to leave it as is until after I have presented it to avoid any loss of work, instead presenting irect through VS Code
+
+## AI implementation
+-----------------
 The use of AI in this product is mainly to fill the role of content writer for more lengthy areas of the website with chatgpt, as well as the logo production for the faux partners of the site from logo.com. As well as these Copilot was used to aid with troubleshooting code issues and implementing some more advanced features such as the "contact" card on the navbar and the "Find out more" button on the about. It's worth noting that Copilot initially produced fairly unstandard code and required some tuning before it produced something closer to industry standard, it had a tendency to place css inline and leave rogue closing tags to void elements. I cleaned what i could understand and left the rest as was for expediency of the project
 
-Testing and Validation
-Persistent personal testing was carried out throughout the project to ensure usability and feature consistency, the repeated mobile first test to ensure all basic device screens dimensions are accommodated for. The website was passed through a series of validators such as HTML, CSS, Js etc….
+## Testing and Validation
+----------------------
+Persistent personal testing was carried out throughout the project to ensure usability and feature consistency, repeated mobile first test to ensure all basic device screens dimensions are accommodated for. The website was passed through a series of validators such as HTML and CSS however the final state of the site has not been run through checkers due to the deployment issue presented above. It is worth noting that previous versions passed without errors
 
-References / external links
+References
+----------
+https://www.freepik.com/author/pikisuperstar
+
 Credits
+-------
+Developer - Berren Stonechild
+co-developer - Copilot
+Cartoon style therapy images from user pikistar at freepik.com
+Calm corner logo generated at logo.com
+Hero images where produced by deepai.org
+Writing for the website as well as some aid with code syntax from chatgpt
+
+
+
+
+
+
+
+
+
