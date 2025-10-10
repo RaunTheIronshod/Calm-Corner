@@ -47,16 +47,23 @@
     </nav>
     <!-- Hero Section -->
     <section id="hero"
-        class="hero d-flex align-items-center justify-content-center text-center text-white vh-100 position-relative"
-        style="background: url('./assets/images/Hero-Image.PNG') no-repeat center center; background-size: cover;">
+        class="hero d-flex align-items-center justify-content-center text-center text-white vh-100 position-relative">
+
+        <!-- Hero image -->
+        <img src="assets/images/Hero-Image.PNG" alt="Hero" class="position-absolute w-100 h-100 object-fit-cover"
+            style="z-index: -2;">
 
         <!-- Dark overlay -->
-        <div class="position-absolute w-100 h-100" style="background: rgba(0,0,0,0.4);"></div>
+        <div class="position-absolute w-100 h-100" style="background: rgba(0,0,0,0.4); z-index: -1;"></div>
 
         <!-- Hero content -->
         <div class="position-relative px-3">
-            <h1 class="fw-bold display-3 display-sm-4 display-md-3 display-lg-2">Welcome to Calm Corner</h1>
-            <p class="lead fs-6 fs-md-5 mt-3">A safe space for mental health and well-being</p>
+            <h1 class="fw-bold display-3 display-sm-4 display-md-3 display-lg-2">
+                Welcome to Calm Corner
+            </h1>
+            <p class="lead fs-6 fs-md-5 mt-3">
+                A safe space for mental health and well-being
+            </p>
 
             <button class="btn btn-primary px-4 py-2"
                 onclick="document.getElementById('main-header').scrollIntoView({ behavior: 'smooth' });">
